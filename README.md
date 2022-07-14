@@ -11,4 +11,5 @@ flutter_firebase_burc_yorumu
 ![9](https://user-images.githubusercontent.com/77650437/178882854-ad906bc3-cbe5-4469-a538-d8f018066680.PNG)
 ![10](https://user-images.githubusercontent.com/77650437/178882857-ae26af18-317a-4ab9-a26d-e53ac36adb03.PNG)
 ![11](https://user-images.githubusercontent.com/77650437/178882858-e6475592-7cb7-4293-92ef-66c9726eeec1.PNG)
+
 Apk Dosyasını Projeyi Açtıktan Sonra Terminal Penceresine "flutter build apk --split-per-abi" yazarak erişebilirsiniz 
