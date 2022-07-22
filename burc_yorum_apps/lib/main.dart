@@ -1,5 +1,6 @@
 import 'package:firebase_app_web/screens/burc_detaylari.dart';
 import 'package:firebase_app_web/screens/burc_listeleri.dart';
+import 'package:firebase_app_web/screens/splash_screens.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'screens/kayit_ol.dart';
@@ -26,9 +27,9 @@ class _AppState extends State<App> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Burc Rehberi",
-      initialRoute: "/SignUpPage",
+      initialRoute: "/SplashEkrani",
       routes: {
-        "/": (context) => const SignUpPage(),
+        "/": (context) => const SplashEkrani(),
         "/BurcListesi": (context) => BurcListesi(),
         "/BurcDetaylari": (context) => BurcDetaylari(1),
       },
